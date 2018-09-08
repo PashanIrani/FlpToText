@@ -15,8 +15,8 @@ def run(args):
 
     out.write("Omnishpere presets in .flp files from " + os.path.dirname(os.path.realpath(__file__)) + " written on [" + datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y") + "]\n\n")
     out.write("~ A Program created by Pashan\n")
-    out.write("https://github.com/PashanIrani/OmnispherePresetInfoToText.git")
-    
+    out.write("https://github.com/PashanIrani/OmnispherePresetInfoToText.git\n\n")
+
     for filename in glob.glob("*.flp"):
         flp = open(filename, "r")
 
